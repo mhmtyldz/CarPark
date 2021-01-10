@@ -67,15 +67,15 @@ namespace CarPark.User
                 //Burdaki ayarda da diyoruz ki Ben localizationu hem Querystring de 
                 //Hem cookie de 
                 //hemde headerda gönderebilirim
-                //opt.RequestCultureProviders = new List<IRequestCultureProvider>
-                //{
+                opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                {
 
-                //    new QueryStringRequestCultureProvider(),
-                //    new CookieRequestCultureProvider(),
-                //    new AcceptLanguageHeaderRequestCultureProvider()
-                //};
+                    new QueryStringRequestCultureProvider(),
+                    new CookieRequestCultureProvider(),
+                    new AcceptLanguageHeaderRequestCultureProvider()
+                };
                 //Bu ayar ile /en-US/contact/add /tr-TR/contact/add  yapýyoruz
-                opt.RequestCultureProviders = new[]{new RouteDataRequestCultureProvider() { Options = opt }};
+                //opt.RequestCultureProviders = new[]{new RouteDataRequestCultureProvider() { Options = opt }};
 
 
             });
@@ -110,7 +110,7 @@ namespace CarPark.User
                
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{culture}/{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

@@ -2182,3 +2182,63 @@ System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address
 2021-01-02 18:51:45.552 +03:00 [INF] Executed action CarPark.User.Controllers.ContactController.Add (CarPark.User) in 340.23650000000004ms
 2021-01-02 18:51:45.557 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.ContactController.Add (CarPark.User)'
 2021-01-02 18:51:45.563 +03:00 [INF] Request finished in 435.1825ms 200 text/html; charset=utf-8
+2021-01-10 15:03:33.400 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 15:03:34.359 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 15:03:34.359 +03:00 [INF] Hosting environment: Development
+2021-01-10 15:03:34.359 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User
+2021-01-10 15:03:34.421 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-01-10 15:03:34.525 +03:00 [INF] Request finished in 106.9936ms 404 
+2021-01-10 15:14:52.564 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 15:14:53.152 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 15:14:53.153 +03:00 [INF] Hosting environment: Development
+2021-01-10 15:14:53.154 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User
+2021-01-10 15:14:53.192 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-01-10 15:14:53.226 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-01-10 15:14:53.314 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-01-10 15:14:53.346 +03:00 [INF] Executing ViewResult, running view Index.
+2021-01-10 15:14:53.518 +03:00 [INF] Executed ViewResult - view Index executed in 181.6107ms.
+2021-01-10 15:14:53.522 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 207.3383ms
+2021-01-10 15:14:53.523 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-01-10 15:14:53.526 +03:00 [INF] Request finished in 337.1435ms 200 text/html; charset=utf-8
+2021-01-10 15:14:53.717 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery/dist/jquery.min.js  
+2021-01-10 15:14:53.718 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-01-10 15:14:53.725 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/css/site.css  
+2021-01-10 15:14:53.727 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-01-10 15:14:53.786 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-01-10 15:14:53.786 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-01-10 15:14:53.787 +03:00 [INF] Request finished in 62.0764ms 200 text/css
+2021-01-10 15:14:53.787 +03:00 [INF] Request finished in 59.932500000000005ms 200 application/javascript
+2021-01-10 15:14:53.789 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-01-10 15:14:53.847 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-01-10 15:14:53.847 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-01-10 15:14:53.848 +03:00 [INF] Request finished in 59.328100000000006ms 200 application/javascript
+2021-01-10 15:14:53.848 +03:00 [INF] Request finished in 131.4382ms 200 application/javascript
+2021-01-10 15:14:53.863 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-01-10 15:14:53.863 +03:00 [INF] Request finished in 145.81740000000002ms 200 text/css
+2021-01-10 15:30:11.175 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 15:30:11.613 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 15:30:11.613 +03:00 [INF] Hosting environment: Development
+2021-01-10 15:30:11.613 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\Desktop\youtubeicin\CarPark\CarPark.User
+2021-01-10 15:30:11.645 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-01-10 15:30:11.678 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-01-10 15:30:11.749 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-01-10 15:30:11.771 +03:00 [INF] Executing ViewResult, running view Index.
+2021-01-10 15:30:12.005 +03:00 [INF] Executed ViewResult - view Index executed in 234.65310000000002ms.
+2021-01-10 15:30:12.010 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 257.37780000000004ms
+2021-01-10 15:30:12.011 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-01-10 15:30:12.015 +03:00 [INF] Request finished in 373.583ms 200 text/html; charset=utf-8
+2021-01-10 15:30:12.247 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/css/site.css  
+2021-01-10 15:30:12.250 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-01-10 15:30:12.253 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery/dist/jquery.min.js  
+2021-01-10 15:30:12.254 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-01-10 15:30:12.299 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2021-01-10 15:30:12.299 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2021-01-10 15:30:12.301 +03:00 [INF] Request finished in 51.013200000000005ms 304 text/css
+2021-01-10 15:30:12.301 +03:00 [INF] Request finished in 48.8921ms 304 application/javascript
+2021-01-10 15:30:12.302 +03:00 [INF] The file /js/site.js was not modified
+2021-01-10 15:30:12.302 +03:00 [INF] Request finished in 48.8189ms 304 application/javascript
+2021-01-10 15:30:12.322 +03:00 [INF] The file /css/site.css was not modified
+2021-01-10 15:30:12.322 +03:00 [INF] Request finished in 75.04220000000001ms 304 text/css
+2021-01-10 15:30:12.547 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-01-10 15:30:12.548 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2021-01-10 15:30:12.548 +03:00 [INF] Request finished in 0.52ms 304 application/javascript
