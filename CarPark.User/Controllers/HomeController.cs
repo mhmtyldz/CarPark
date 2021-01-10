@@ -62,6 +62,7 @@ namespace CarPark.User.Controllers
 
         public IActionResult List()
         {
+            //Böyle boş action oluşturmakla bana yardım etmiş olmazsın!
             return View();
         }
     }
