@@ -1,0 +1,24 @@
+2020-12-11 23:29:47.482 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-11 23:29:47.505 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/weatherforecast  
+2020-12-11 23:29:47.507 +03:00 [INF] Hosting environment: Development
+2020-12-11 23:29:47.507 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\Desktop\CarPark\CarPark.API
+2020-12-11 23:29:47.537 +03:00 [INF] Executing endpoint 'CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API)'
+2020-12-11 23:29:47.677 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CarPark.API.WeatherForecast] Get() on controller CarPark.API.Controllers.WeatherForecastController (CarPark.API).
+2020-12-11 23:29:47.681 +03:00 [INF] Ben bir logum
+2020-12-11 23:29:47.692 +03:00 [INF] Executing ObjectResult, writing value of type 'CarPark.API.WeatherForecast[]'.
+2020-12-11 23:29:47.745 +03:00 [INF] Executed action CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API) in 59.4423ms
+2020-12-11 23:29:47.749 +03:00 [INF] Executed endpoint 'CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API)'
+2020-12-11 23:29:47.754 +03:00 [INF] Request finished in 252.513ms 200 application/json; charset=utf-8
+2020-12-11 23:29:48.118 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/favicon.ico  
+2020-12-11 23:29:48.122 +03:00 [INF] Request finished in 3.8221000000000003ms 404 
+2020-12-11 23:42:25.030 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44361/weatherforecast  
+2020-12-11 23:42:25.000 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-11 23:42:25.050 +03:00 [INF] Hosting environment: Development
+2020-12-11 23:42:25.051 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\Desktop\CarPark\CarPark.API
+2020-12-11 23:42:25.093 +03:00 [INF] Executing endpoint 'CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API)'
+2020-12-11 23:42:25.217 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CarPark.API.WeatherForecast] Get() on controller CarPark.API.Controllers.WeatherForecastController (CarPark.API).
+2020-12-11 23:42:25.221 +03:00 [INF] Ben bir logum
+2020-12-11 23:42:25.239 +03:00 [INF] Executing ObjectResult, writing value of type 'CarPark.API.WeatherForecast[]'.
+2020-12-11 23:42:25.284 +03:00 [INF] Executed action CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API) in 60.1054ms
+2020-12-11 23:42:25.287 +03:00 [INF] Executed endpoint 'CarPark.API.Controllers.WeatherForecastController.Get (CarPark.API)'
+2020-12-11 23:42:25.292 +03:00 [INF] Request finished in 265.5492ms 200 application/json; charset=utf-8
